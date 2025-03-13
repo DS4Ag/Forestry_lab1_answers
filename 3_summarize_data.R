@@ -72,15 +72,13 @@ sum_u2 %>% arrange(desc(BA))
 # Use the following code to verify your results:
 head(sum_u2 %>% arrange(desc(TPA)))
 
-# Your results should look similar to this:
-
 #     A tibble: 6 × 3
 #     Plot     BA   TPA
 #     <chr> <dbl> <dbl>
-#     F7     62.6   356
-#     I3    116.    288
-#     C7     71.3   284
-#     B6    137.    268
-#     E7     73.9   252
-#     G6    126.    248
+#     1 B6    129.    216
+#     2 F7     53.2   216
+#     3 E7     70.3   184
+#     4 F6    115.    168
+#     5 L3    137.    164
+#     6 R5    140.    164
 
